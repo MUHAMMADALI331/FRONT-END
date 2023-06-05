@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #050505;
+    display: block;
+    padding: 0px 0px;
+    margin: 2px 0px;
+}
+
+a :hover {
+    color: #b4ccef;
+}
+
+body {
+    background-image: linear-gradient(#212529, #8ecae6);
+    height: 100vh;
+}
+
+.Nav-container {
+    margin-left: 30px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.login-form {
+    border: 2px solid black;
+    max-width: 30vw;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 26vh;
+    border-radius: 25px;
+    background-color: #219ebc;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.login-form:hover {
+    box-shadow: 10px 10px 20px #023047;
+}
+
+.login-btn {
+    margin: auto;
+    text-decoration: none;
+}
+
+.Row {
+    display: contents;
+}
+
+.Col {
+    max-width: 12%;
+    background-color: #12688226;
+    height: 92vh;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #8ecae6;
+    --bs-nav-pills-link-active-color: #9b2226;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 0px;
+    padding-left: 11px;
+    color: #050505;
+}
+
+
+.list {
+    border: 2pc solid black;
+    border-width: 9px;
+    position: absolute;
+    left: 200px;
+    top: 65px;
+    width: 85%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.for-checkbox {
+    display: flex;
+}
+
+#checkbox {
+    margin-right: 30px;
+}
+
+.list-group-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* background-color: transparent; */
+    width: 95%;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    bottom: 15px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.adduserform,
+.addtaskform {
+    width: 95%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    bottom: 20px;
+}
+
+.password {
+    display: flex;
+}
+
+.password-field,
+.department-radio {
+    width: 84%;
+    margin-right: 26px;
+}
+
+.gender {
+    display: flex;
+}
+
+.gender-type {
+    margin-right: 20px;
+}
+
+.end {
+    display: flex;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+}
+
+.add-user {
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+}
+
+.datefield {
+    margin-right: 30%;
+}
+
+.add-task {
+    position: absolute;
+    right: 0px;
+}
+
+.accordian {
+    margin: 10px;
+}
+
+.accordianheader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.accordian .accordion-button::after {
+    display: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
